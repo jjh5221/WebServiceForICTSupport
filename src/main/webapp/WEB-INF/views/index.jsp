@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICT SUPPORT CENTRE</title>
 
-
     <!-- Load css styles -->
     <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="/resources/css/font-awesome.css"/>
@@ -34,10 +33,11 @@
             <li><a href=""><i class="fa fa-pinterest"></i></a></li>
         </ul>
     </nav>
+    <!-- Offsite navigation -->
     <div class="container">
         <div class="header-info">
             <h1>ICT Support Centre</h1>
-            <p>블라블라블라블라블라블라블라블라블라</p>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
         </div>
     </div>
 </div>
@@ -74,13 +74,10 @@
             <div class="col-md-8">
                 <%--<p>&copy; 2015 Template by <a href="http://graphberry.com" target="_blank">GraphBerry</a></p>--%>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" text-align="right">
                 <ul class="social-icons">
                     <li><a href="https://www.facebook.com/NLCSJeju/"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com/NLCSJeju1"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href=""><i class="fa fa-behance"></i></a></li>
-                    <li><a href=""><i class="fa fa-pinterest"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -96,7 +93,5 @@
 
 <script type="text/javascript" src="/resources/js/smooth-scroll.js"></script>
 
-<!-- Load custom js for theme -->
-<script type="text/javascript" src="/resources/js/app.js"></script>
 </body>
 </html>
