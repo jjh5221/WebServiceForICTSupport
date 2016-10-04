@@ -48,7 +48,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="service-item">
-                    <div class="icon"><i class="fa fa-user"></i></div>
+                    <div class="icon" data-toggle="modal" data-target="#studentidcard"><i class="fa fa-user"></i></div>
                     <h3>Request ID Card</h3>
                 </div>
             </div>
@@ -67,6 +67,21 @@
         </div>
     </div>
 </section>
+<!-- IDCard modal start -->
+<div class="modal fade" id="studentidcard" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                Request ID Card
+            </div>
+            <div class="modal-body">
+                <iframe class="studentidcardiframe" src="" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!-- IDCard modal end -->
 <!-- printer modal start -->
 <div class="modal fade" id="printermanul" role="dialog">
     <div class="modal-dialog modal-lg">
@@ -123,8 +138,6 @@
 <script type="text/javascript" src="/resources/js/bootstrap.js"></script>
 
 <script type="text/javascript" src="/resources/js/smooth-scroll.js"></script>
-
-<%--<script type="text/javascript" src="/resources/js/connectwifi.js"></script>--%>
 
 </body>
 </html>
