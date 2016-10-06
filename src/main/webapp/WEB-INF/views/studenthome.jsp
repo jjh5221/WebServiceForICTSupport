@@ -75,7 +75,7 @@
                 Request ID Card
             </div>
             <div class="modal-body">
-                <iframe class="studentidcardiframe" src="" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+                <iframe class="studentidcardiframe" src="https://nlcsjeju.on.spiceworks.com/portal" width="100%" height="700" frameborder="0" scrolling="auto"></iframe>
             </div>
             <div class="modal-footer"></div>
         </div>
